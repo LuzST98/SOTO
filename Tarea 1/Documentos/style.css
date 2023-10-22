@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#Contenido{
+    width: 98%;
+    margin: 0px auto;
+    border: 2px solid black;
+}
+
+
+header{
+    background-color: rgb(226, 255, 245);
+    height: 98%;
+    width: 100%;
+    text-align: center;
+    line-height: normal;
+}
+
+nav{
+    background-color: cadetblue;
+    height: 50px;
+    width:100%;
+    border-bottom: 2px dashed black;
+    border-top: 2px dashed black;
+}
+
+nav ul li {
+    float: left;
+    margin: 10px;
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+.ensulugar{
+    clear: both;
+}
+
+
+footer{
+    background-color: black;
+    color: beige;
+    text-align: center;
+    line-height: 35px;
+}
+
+.menuproductos{
+    margin: 1%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.preciocentrado{
+    text-align: center;
+}
+
+.textopretal{
+    font-size: 115%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.flewflow{
+    flex-flow: column wrap;
+}
