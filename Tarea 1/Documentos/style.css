@@ -41,7 +41,6 @@ ul{
     justify-content: center;
 }
 
-
 footer{
     background-color: black;
     color: beige;
@@ -50,10 +49,11 @@ footer{
 }
 
 .menuproductos{
-    margin: 1%;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+    justify-content:space-between;
 }
 
 .preciocentrado{
@@ -64,10 +64,6 @@ footer{
     font-size: 115%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-}
-
-.flewflow{
-    flex-flow: column wrap;
 }
 
 a{
@@ -92,3 +88,4 @@ a{
         display:inline;
     }
 }
+

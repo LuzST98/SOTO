@@ -13,68 +13,86 @@
         <img src="Logo.jpg" alt="Logo" width="20%" height="20%">
         <nav class="navegador"> 
             <ul>
-              <li><a href="Inicio.html">Inicio</a></li>
-              <li><a href="Tienda.html">Tienda</a></li>
-              <li><a href="Nosotros.html">Nosotros</a></li>
-              <li><a href="Contacto.html">Contacto</a></li>
+              <li><a href="Inicio.html" id="saludar">Inicio</a></li>
+              <li><a href="Tienda.html" id="saludarDos">Tienda</a></li>
+              <li><a href="Nosotros.html" id="saludarTres">Nosotros</a></li>
+              <li><a href="Contacto.html" id="saludarCuatro">Contacto</a></li>
             </ul>
         </nav> 
     </header>
 <br>
+<div class="columnas">
  <Main>
   <section> 
      <article>
-       <div class="menuproductos" class="flexflow">
+       <div class="menuproductos">
          <div class="producto">
-           <img src="Tarea 1/Imagenes/Pretal 2.jpg" alt="Pretal flores" width="300px" height="300px">
+           <img src="Tarea 1/Imagenes/Pretal 2.jpg" alt="pretalflores" width="300px" height="300px">
            <h2 class="textopretal">Pretal flores</h2>
              <div class="precio">
                <p class="preciocentrado">$2500</p>
-               <button>Añadir a carrito</button>
+               <button onclick="alert('añadido')">Añadir a carrito</button>
+             </div>
+         </div>     
+         <div class="producto">
+           <img src="Tarea 1/Imagenes/Pretal 3.jpg" alt="pretaldinosaurio" width="300px" height="300px">
+           <h2 class="textopretal">Pretal dinosaurio</h2>
+             <div class="precio">
+               <p class="preciocentrado">$2500</p>
+               <button onclick="alert('añadido')">Añadir a carrito</button>
              </div>
          </div>
-          <br>      
          <div class="producto">
-           <img src="Tarea 1/Imagenes/Pretal 3.jpg" alt="Pretal Dinosaurio" width="300px" height="300px">
-           <h2 class="textopretal">Pretal Dinosaurio</h2>
+           <img src="Tarea 1/Imagenes/Pretal 4.jpg" alt="pretalcamuflado" width="300px" height="300px">
+           <h2 class="textopretal">Pretal camuflado</h2>
              <div class="precio">
                <p class="preciocentrado">$2500</p>
-               <button>Añadir a carrito</button>
-              </div>
+               <button onclick="alert('añadido')">Añadir a carrito</button>
+             </div>
          </div>
-          <br>
          <div class="producto">
-           <img src="Tarea 1/Imagenes/Pretal 4.jpg" alt="Pretal Camuflado" width="300px" height="300px">
-           <h2 class="textopretal">Pretal Camuflado</h2>
-             <div class="precio">
-               <p class="preciocentrado">$2500</p>
-               <button>Añadir a carrito</button>
-              </div>
-         </div>
-          <br>
-         <div class="producto">
-           <img src="Tarea 1/Imagenes/Pretal 5.jpg" alt="Pretal Animal Print" width="300px" height="300px">
-           <h2 class="textopretal">Pretal animal print</h2>
+            <img src="Tarea 1/Imagenes que faltan agregar/Pretal estrella.jpg" alt="pretalestrella" width="300px" height="300px">
+             <h2 class="textopretal">Pretal estrella</h2>
               <div class="precio">
-               <p class="preciocentrado">$2500</p>
-               <button>Añadir a carrito</button>
+                <p class="preciocentrado">$2500</p>
+                <button onclick="alert('añadido')">Añadir a carrito</button>
               </div>
+         </div>
+         <div class="producto">
+           <img src="Tarea 1/Imagenes/Pretal 5.jpg" alt="pretalanimalprint" width="300px" height="300px">
+           <h2 class="textopretal">Pretal animal print</h2>
+             <div class="precio">
+               <p class="preciocentrado">$2500</p>
+               <button onclick="alert('añadido')">Añadir a carrito</button>
+             </div>
+         </div>
+          <div class="producto">
+            <img src="Tarea 1/Imagenes que faltan agregar/Pretal warning.jpg"pretalwarning" width="300px" height="300px">
+            <h2 class="textopretal">Pretal warning</h2>
+              <div class="precio">
+                <p class="preciocentrado">$2500</p>
+                <button onclick="alert('añadido')">Añadir a carrito</button>
+              </div>
+          </div>
        </div>
-        </div>
     </article>
    </section>
   </Main>
+</div>
 <br>
     <footer class="ensulugar">
      <form action="" method="get">
         <fieldset>
             <legend>Suscribite</legend>
              <label for="Correo electrónico">Correo electrónico</label>
-             <input type="text" id="Correo electrónico" name="Correo electrónico">
+             <input type="text" id="Correo electrónico" name="Correo electrónico" required minlength="4" maxlength="40">
              <input type="submit" name="submit" id="submit">
         </fieldset>
      </form>
     </footer>
    </div>
-</body>
+     
+
+    <script src="media.js"></script>
+  </body>
 </html>
